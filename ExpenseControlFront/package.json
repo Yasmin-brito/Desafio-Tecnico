@@ -1,0 +1,36 @@
+{
+  "name": "expensecontrolfront",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "oxlint",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.3.2",
+    "@untitledui/icons": "^0.0.22",
+    "jspdf": "^4.2.1",
+    "jspdf-autotable": "^5.0.8",
+    "react": "^19.2.7",
+    "react-aria": "^3.50.0",
+    "react-aria-components": "^1.19.0",
+    "react-dom": "^19.2.7",
+    "react-router-dom": "^7.18.1",
+    "tailwind-merge": "^3.6.0",
+    "tailwindcss": "^4.3.2",
+    "tailwindcss-animate": "^1.0.7",
+    "tailwindcss-react-aria-components": "^2.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.13.2",
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.3",
+    "oxlint": "^1.71.0",
+    "typescript": "~6.0.2",
+    "vite": "^8.1.1"
+  }
+}
