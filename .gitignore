@@ -1,0 +1,57 @@
+# =========================
+# IDEs e editores
+# =========================
+.idea/
+*.swp
+*.swo
+*~
+
+# Visual Studio / Rider
+.vs/
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+
+# =========================
+# .NET / ASP.NET Core (ExpenseControl)
+# =========================
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+*.log
+
+# Arquivos de build e cache
+project.lock.json
+project.fragment.lock.json
+artifacts/
+*.nupkg
+*.snupkg
+
+# Configurações locais com secrets (connection strings, etc.)
+appsettings.json
+
+# Entity Framework
+*.db
+*.db-shm
+*.db-wal
+
+# =========================
+# Node.js / npm
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-store/
+
+# =========================
+# Frontend React + Vite (ExpenseControlFront)
+# =========================
+dist/
+dist-ssr/
+.vite/
+*.local
+
